@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="applicable-device" content="mobile" />
+    <!-- 移动端 浏览器中页面将以原始大小显示，不允许缩放 -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+
+    <!-- iphone会把一串数字识别为电话号码，点击的时候会提示是否呼叫，屏蔽这功能则把telephone设置为no -->
+    <meta content="telephone=no" name="format-detection"/> 
+    <!-- iphone的私有标签，默认值为default（白色），可以定为black（黑色）和black-translucent（灰色半透明） -->
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <!-- iphone设备的是有标签 允许全屏模式浏览，隐藏浏览器导航栏 -->
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <!-- 全屏显示  -->
+    <meta content="yes" name="apple-touch-fullscreen"/>
+    <!-- UC强制全屏  -->
+    <meta name="full-screen" content="yes">
+    <!-- QQ强制全屏  -->
+    <meta name="x5-fullscreen" content="true">
+    <!-- 屏蔽百度转码 -->
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/common.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js"></script>
+    <script src="js/jquery-1.11.0.js"></script>
+    <script src="js/index.js"></script>
+
+</head>
+<body>
+
+	<div id="header">
+
+	<div id="header_left">
+		<span class="selCity_text">郑州</span>
+		<ul class="selCity">
+			<li>南京</li>
+			<li>镇江</li>
+			<li>苏州</li>
+			<li>扬州</li>
+			<li>安徽</li>
+		</ul>
+		<span><img src="images/top_01.png" alt="" class="selCity_img"></span>
+	</div>
+	<div id="header_middle">
+	<input type="text" class="search" placeholder="请输入商品名、品类、或商圈...">
+	</div>
+	<div id="header_right">
+		<img src="images/top_03.png" alt="" class="scan">
+	</div>
+
+	</div>
+
+	<div id="banner">
+		<div class="swiper-container">
+		<div class="swiper-wrapper banner">
+			<div class="swiper-slide">
+			<img src="images/banner_1.png" alt="">
+			</div>
+			<div class="swiper-slide">
+			<img src="images/banner_2.png" alt="">
+			</div>
+		</div>
+		<!-- 添加左右控制按钮 -->
+		</div>
+	</div>
+
+
+	<div id="icon">
+	<div id="icon_top">
+	<ul>
+		<li><img src="images/image_food.png" alt=""></li>
+		<li><img src="images/image_hotel.png" alt="" class="img_hotel" style="width:85%"></li>
+		<li><img src="images/image_scenic.png" alt=""></li>
+		<li><img src="images/image_relaxation.png" alt=""></li>
+	</ul>
+	<ul>
+		<li>美食</li>
+		<li>酒店</li>
+		<li>景点</li>
+		<li>休闲娱乐</li>
+	</ul>
+		
+	
+	</div>
+	<div id="icon_bottom">
+	<ul>
+		<li><img src="images/image_privilege.png" alt=""></li>
+		<li><img src="images/image_film.png" alt=""></li>
+		<li><img src="images/image_holiday.png" alt=""></li>
+		<li><img src="images/image_shop.png" alt=""></li>
+	</ul>
+	<ul>
+		<li>闪惠团购</li>
+		<li>电影</li>
+		<li>度假套餐</li>
+		<li>购物</li>
+	</ul>
+		
+	</div>
+	<div id="icon_pagination">
+		<div class="circle circle1"></div>
+		<div class="circle circle2"></div>
+		<div class="circle circle3"></div>
+	</div>
+	</div>
+
+	<div id="main_01">
+		<div id="main_01_top">
+		<ul>
+			<li><span>|</span> 免费体验区</li>
+			<li class="count"></li>
+			<li>查看更多&gt;</li>
+		</ul>
+			
+		</div>
+		<div id="main_01_middle">
+			<ul>
+				<li><img src="images/ice.png" alt=""></li>
+				<li><img src="images/drink.png" alt=""></li>
+				<li><img src="images/fruit.png" alt=""></li>
+				<li><img src="images/pizza.png" alt=""></li>
+			</ul>
+			<ul>
+				<li>冰激淋</li>
+				<li>果蔬饮料</li>
+				<li>水果拼盘</li>
+				<li>美味披萨</li>
+			</ul>
+
+		</div>
+		<div id="main_01_bottom">
+			<ul>
+				<li><img src="images/car.png" alt=""></li>
+				<li><img src="images/shoot.png" alt=""></li>
+				<li><img src="images/tabletennis.png" alt=""></li>
+				<li><img src="images/foot.png" alt=""></li>
+			</ul>
+			<ul>
+				<li>洗车擦车</li>
+				<li>摄影写真</li>
+				<li>台球休闲</li>
+				<li>足浴养生</li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="main_02">
+		<div id="main_02_top">
+			<ul>
+			<li><span>|</span> 玖邦尼创富</li>
+			<li>邦尼币购物，超值超划算 !</li>
+			<li>查看全部&gt;</li>
+		</ul>
+		</div>
+		<div id="main_02_middle">
+			<ul>
+				<li><img src="images/img_03.png" alt=""></li>
+				<li><img src="images/img_05.png" alt=""></li>
+				<li><img src="images/img_07.png" alt=""></li>
+				<li><img src="images/img_09.png" alt=""></li>
+				
+			</ul>
+		</div>
+		<div id="main_02_bottom">
+			<ul>
+				<li><img src="images/img_11.png" alt=""></li>
+				<li><img src="images/img_13.png" alt=""></li>
+				<li><img src="images/img_15.png" alt=""></li>
+				<li><img src="images/img_17.png" alt=""></li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="main_03">
+	<div id="main_03_top">
+		<ul>
+			<li><span>|</span> 猜你喜欢</li>
+			<li></li>
+			<li>查看所有&gt;</li>
+		</ul>
+	</div>
+	<div id="main_03_middle">
+	<table>
+		<tbody >
+		<tr>
+			<td rowspan="3"><img src="images/cake.png"></td>
+			<td>香贝贝蛋糕/蛋挞</td>
+			<td>&lt;1 Km</td>
+		</tr>
+		<tr>
+			<td colspan="2">【高皇寨花都莲郡小区门向西30米】</td>
+			
+		</tr>
+		<tr>
+			<td>￥ 49.00元</td>
+			<td>月销量：1532份</td>
+		</tr>
+		<tr>
+			<td rowspan="3"><img src="images/shrimp.png"></td>
+			<td>天天见面麻辣香锅</td>
+			<td>&lt;1 Km</td>
+		</tr>
+		<tr>
+			<td colspan="2">【经三路与晨旭路交叉口西100米麻辣香锅】</td>
+			
+		</tr>
+		<tr>
+			<td>￥ 49.00元</td>
+			<td>月销量：1352份</td>
+		</tr>
+		<tr>
+			<td rowspan="3"><img src="images/noodles.png"></td>
+			<td>重庆小面</td>
+			<td>&lt;1 Km</td>
+		</tr>
+		<tr>
+			<td colspan="2">【郑州市金水区庙李南二街345号】</td>
+		</tr>
+		<tr>
+			<td>￥ 6.00元</td>
+			<td>月销量：1202份</td>
+		</tr>
+		</tbody>
+	</table>
+	<table id="table2">
+		<tbody >
+		<tr>
+			<td rowspan="3"><img src="images/cake.png"></td>
+			<td>香贝贝蛋糕/蛋挞</td>
+			<td>&lt;1 Km</td>
+		</tr>
+		<tr>
+			<td colspan="2">【高皇寨花都莲郡小区门向西30米】</td>
+			
+		</tr>
+		<tr>
+			<td>￥ 49.00元</td>
+			<td>月销量：1532份</td>
+		</tr>
+		<tr>
+			<td rowspan="3"><img src="images/shrimp.png"></td>
+			<td>天天见面麻辣香锅</td>
+			<td>&lt;1 Km</td>
+		</tr>
+		<tr>
+			<td colspan="2">【经三路与晨旭路交叉口西100米麻辣香锅】</td>
+			
+		</tr>
+		<tr>
+			<td>￥ 49.00元</td>
+			<td>月销量：1352份</td>
+		</tr>
+		<tr>
+			<td rowspan="3"><img src="images/noodles.png"></td>
+			<td>重庆小面</td>
+			<td>&lt;1 Km</td>
+		</tr>
+		<tr>
+			<td colspan="2">【郑州市金水区庙李南二街345号】</td>
+		</tr>
+		<tr>
+			<td>￥ 6.00元</td>
+			<td>月销量：1202份</td>
+		</tr>
+		</tbody>
+	</table>
+	</div>
+	<div id="main_03_bottom"><a class="viewMore">查看全部团购</a></div>
+	</div>
+
+	<div id="bottom">
+		<ul class="bottom_img">
+			<li><img src="images/index.png" alt=""></li>
+			<li><img src="images/term.png" alt=""></li>
+			<li><img src="images/order.png" alt=""></li>
+			<li><img src="images/person.png" alt=""></li>
+		</ul>
+		<ul class="bottom_text">
+			<li>商城首页</li>
+			<li>商家合作</li>
+			<li>订单列表</li>
+			<li>会员中心</li>
+		</ul>
+	</div>
+
+<!-- 	<script>
+		var swiper=new Swiper(".swiper-container",{
+			keyboardControl:true,//键盘控制
+			mousewheelControl:true,
+			// direction:"vertical",
+			autoplay:2000,
+			loop:true,
+			// autoplayDisableOnInteraction:true,//点击pagination或者滑动的时候，就停止不动了
+		});
+		$(function(){
+			$(".selCity").css("display","none");
+			var state=true;
+			$("#header_left").click(function(){
+				if (state){
+					$(".selCity").show();
+					$(".selCity_img").css("transform","rotate(180deg)");
+					state=false;
+				}else{
+					$(".selCity").hide();
+					$(".selCity_img").css("transform", "rotate(360deg)");
+					state=true;
+				}
+			});
+			$(".selCity li").click(function(){
+				$(".selCity_text").html($(this).html());
+			});
+
+			clock();
+			setInterval(clock,1000);
+			function clock(){
+			var newTime=new Date(2017,5,12,22,10,00);
+			var nowTime=new Date();
+			console.log(newTime);
+			var onlyTime=Math.floor((newTime-nowTime)/1000);
+
+			var strTime=Math.floor(onlyTime%86400/3600)+":"+Math.floor(onlyTime%86400%3600/60)+":"+onlyTime%60;
+
+			$(".count").html(strTime);
+
+		}
+		});
+
+	</script>	 -->
+
+</body>
+</html>
